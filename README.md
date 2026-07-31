@@ -1,1 +1,1 @@
-# B-l-Karpaty-2026
+# Bílé Karpaty 2026
