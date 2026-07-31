@@ -1,0 +1,37 @@
+/*
+  Use the following to include this css file
+  <link rel="stylesheet" href="style.css" />
+*/
+
+body {
+  background-color: antiquewhite;
+  color: rgb(121, 60, 16);
+  max-width: 1200px;
+  margin-top: 5%;
+  margin-left: 5%;
+  padding: 0 20px;
+}
+
+body {
+  font-family: Segoe UI;
+}
+
+h1 {
+  font-size: xx-large;
+}
+
+.space {
+  margin-bottom: 3em;
+}
+
+b {
+  font-weight: 700;
+}
+
+p {
+  font-weight: 500;
+}
+
+a {
+  font-weight: 400;
+}
