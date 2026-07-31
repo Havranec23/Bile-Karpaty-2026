@@ -1,28 +1,17 @@
 /*
   Use the following to include this css file
   <link rel="stylesheet" href="style.css" />
+  
+  DŮLEŽITÉ: Do HTML hlavičky (<head>) přidejte tento řádek pro správné zobrazení na mobilech:
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 */
 
+/* Společný základ pro všechna zařízení */
 body {
   background-color: antiquewhite;
   color: rgb(121, 60, 16);
-  max-width: 1200px;
-  margin-top: 5%;
-  margin-left: 5%;
-  padding: 0 20px;
-}
-
-body {
   font-family: Segoe UI;
-  font-size: 130%;
-}
-
-h1 {
-  font-size: 200%;
-}
-
-.space {
-  margin-bottom: 3em;
+  padding: 0 20px;
 }
 
 b {
@@ -35,4 +24,36 @@ p {
 
 a {
   font-weight: 400;
+}
+
+/* Styl pro velké obrazovky (PC a notebooky) */
+@media (min-width: 769px) {
+  body {
+    max-width: 1200px;
+    margin-top: 5%;
+    margin-left: 5%;
+    font-size: 130%;
+  }
+  h1 {
+    font-size: 200%;
+  }
+  .space {
+    margin-bottom: 3em;
+  }
+}
+
+/* Styl pro mobily a menší tablety */
+@media (max-width: 768px) {
+  body {
+    max-width: 100%;
+    margin-top: 20px;   /* Menší horní odsazení na mobilu */
+    margin-left: 0;     /* Zrušení bočního posunu, text drží padding */
+    font-size: 110%;    /* Mírně menší základní písmo pro mobily */
+  }
+  h1 {
+    font-size: 160%;    /* Zmenšení nadpisu, aby nepřetékal */
+  }
+  .space {
+    margin-bottom: 1.5em; /* Menší mezery na malé obrazovce */
+  }
 }
