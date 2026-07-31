@@ -46,14 +46,16 @@ a {
 @media (max-width: 768px) {
   body {
     max-width: 100%;
-    margin-top: 20px;   /* Menší horní odsazení na mobilu */
-    margin-left: 0;     /* Zrušení bočního posunu, text drží padding */
-    font-size: 110%;    /* Mírně menší základní písmo pro mobily */
+    margin-top: 20px;
+    margin-left: 0;
+    /* ZVĚTŠENO: Základní text bude na mobilu dostatečně velký */
+    font-size: 125%;    
   }
   h1 {
-    font-size: 160%;    /* Zmenšení nadpisu, aby nepřetékal */
+    /* ZVĚTŠENO: Nadpis bude výrazný i na výšku */
+    font-size: 190%;    
   }
   .space {
-    margin-bottom: 1.5em; /* Menší mezery na malé obrazovce */
+    margin-bottom: 2em;
   }
 }
