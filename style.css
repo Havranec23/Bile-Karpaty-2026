@@ -1,12 +1,8 @@
 /*
   Use the following to include this css file
   <link rel="stylesheet" href="style.css" />
-  
-  DŮLEŽITÉ: Do HTML hlavičky (<head>) přidejte tento řádek pro správné zobrazení na mobilech:
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 */
 
-/* Společný základ pro všechna zařízení */
 body {
   background-color: antiquewhite;
   color: rgb(121, 60, 16);
@@ -26,7 +22,7 @@ a {
   font-weight: 400;
 }
 
-/* Styl pro velké obrazovky (PC a notebooky) */
+/* PC and Laptop */
 @media (min-width: 769px) {
   body {
     max-width: 1200px;
@@ -42,17 +38,15 @@ a {
   }
 }
 
-/* Styl pro mobily a menší tablety */
+/* Mobiles, Tablets */
 @media (max-width: 768px) {
   body {
     max-width: 100%;
     margin-top: 20px;
     margin-left: 0;
-    /* ZVĚTŠENO: Základní text bude na mobilu dostatečně velký */
     font-size: 125%;    
   }
   h1 {
-    /* ZVĚTŠENO: Nadpis bude výrazný i na výšku */
     font-size: 190%;    
   }
   .space {
