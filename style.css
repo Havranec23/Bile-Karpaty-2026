@@ -4,10 +4,17 @@
 */
 
 body {
-  background-color: antiquewhite;
+  background-image: url('https://www.bile-karpaty.cz/bile-karpaty');
   color: rgb(121, 60, 16);
-  font-family: Segoe UI;
+  font-family: 'Segoe UI';
   padding: 0 20px;
+}
+
+main {
+  padding: 3rem;
+  border-radius: 50px;
+  background-color: antiquewhite;
+  backdrop-filter: blur;
 }
 
 b {
