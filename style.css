@@ -8,6 +8,9 @@ body {
   color: rgb(121, 60, 16);
   font-family: 'Segoe UI';
   padding: 0 20px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 main {
